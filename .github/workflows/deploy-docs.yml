@@ -26,7 +26,7 @@ jobs:
         working-directory: ./packages/docs
         run: |
           touch storybook-static/.nojekyll 
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/dsoldera/05-design-system
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/tiagorech/05-design-system
           npm run deploy-storybook -- --ci --existing-output-dir=storybook-static
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

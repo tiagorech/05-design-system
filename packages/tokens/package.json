@@ -1,6 +1,6 @@
 {
   "name": "@rech-ignite-ui/tokens",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "- [ ] Button\r  - [ ] Heading\r  - [ ] Text\r  - [ ] TextInput\r  - [ ] Textarea\r  - [ ] Checkbox\r  - [ ] Avatar\r  - [ ] MultiStep",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",

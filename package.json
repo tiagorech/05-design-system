@@ -4,15 +4,20 @@
     "packages/*"
   ],
   "scripts": {
-     "dev": "turbo run dev --parallel",
-     "build": "turbo run build",
-     "lint": "turbo run lint"
-   },
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "turbo run build --filter=packages/docs && changeset publish"
+  },
   "devDependencies": {
     "tsup": "^8.4.0",
     "turbo": "^2.5.2"
   },
   "dependencies": {
+    "@changesets/cli": "^2.29.3",
+    "@rech-ignite-ui/ts-config": "^1.0.0",
     "polished": "^4.3.1"
   },
   "packageManager": "npm@10.5.0",

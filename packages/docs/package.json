@@ -12,9 +12,9 @@
     "build": "storybook build"
   },
   "dependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/react": "*",
-    "@ignite-ui/tokens": "*",
+    "@rech-ignite-ui/eslint-config": "*",
+    "@rech-ignite-ui/react": "*",
+    "@rech-ignite-ui/tokens": "*",
     "@storybook/addon-a11y": "^8.6.12",
     "phosphor-react": "^1.4.1",
     "react": "^19.1.0",
